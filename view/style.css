@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syncopate&display=swap');
+
+html {
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+
+    width: 100%;
+    height: 100%;
+
+    background-color: #6441a5;
+    color : white;
+
+
+    margin: 0%;
+    font-family: 'Syncopate';
+}
+
+.Menu{
+    display: flex;
+    min-width: 100%;
+    height: 6%;
+    background-color: #6441a5;
+    
+    font-size: 300%;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Bangers';
+}
+
+.leftColumn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-between;
+
+    font-size: 100%;
+    min-height: 91%;
+    width: 9%;
+    background-color: #18181b;
+}
+
+.logo{
+    padding-left: 15%;
+    height: 15%;
+    width: 70%;
+}
+
+.milieu{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 94%;
+    width: 91%;
+    font-size: 70%;
+    background-color: white;
+    color: black;
+}
+
+.Statistiques{
+    align-self: flex-end;
+    height: 17%;
+    min-width: 100%;
+    background-color: #18181b;
+}
+
+.Affichage{
+    height: 83%;
+    min-width: 100%;
+    background-color: white;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 10px;
+    font-family: tahoma;
+    border: 0px;
+    font-size: 1em;
+    color: #FFFFFF;
+    background-color: #6441a5;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+}
+
+.btn:hover {
+    padding: 10px;
+    background-color: #8064a2;
+}
+
+#buttons{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;    
+    margin-top: 5px;
+    min-height: 84.9%;
+    width: 100%;
+}
+
+#bStreamers{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;    
+
+    height: 100%;
+    width: 80%;
+    
+    justify-content: center;
+    justify-content: space-between;
+}
+
+#checkBox{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;    
+
+    height: 80%;
+    width: 15%;
+    
+    justify-content: center;
+    margin-top: 16.66666666666%;
+    row-gap: 16.66666666666%;
+}
+
+.months{
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    min-width: 100%;
+    justify-content: space-between;
+    align-self: center;
+}
